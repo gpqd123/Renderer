@@ -1,0 +1,42 @@
+^D:\CODE\VULKAN\MYVULKAN\TEMPLATE\BUILD\CMAKEFILES\94255785AA59FB14C1F4A08D887A1F82\SHADERS.RULE
+setlocal
+D:\code\environment\cmake\bin\cmake.exe -E make_directory D:/code/vulkan/MyVulkan/template/build/VulkanTutorial/shaders
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\VULKAN\MYVULKAN\TEMPLATE\BUILD\CMAKEFILES\F37CA276148D35CD3DE0D9126D506DEA\SLANG.SPV.RULE
+setlocal
+cd D:\code\vulkan\MyVulkan\template\build\VulkanTutorial\shaders
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\code\environment\vk\Bin\slangc.exe D:/code/vulkan/MyVulkan/template/shader.slang -target spirv -profile spirv_1_4 -emit-spirv-directly -fvk-use-entrypoint-name -entry vertMain -entry fragMain -o D:/code/vulkan/MyVulkan/template/build/VulkanTutorial/shaders/slang.spv
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\VULKAN\MYVULKAN\TEMPLATE\BUILD\CMAKEFILES\93D8EAF98DD8C8A2CF98F1799A015039\VULKANTUTORIALSHADER.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODE\VULKAN\MYVULKAN\TEMPLATE\CMAKELISTS.TXT
+setlocal
+D:\code\environment\cmake\bin\cmake.exe -SD:/code/vulkan/MyVulkan/template -BD:/code/vulkan/MyVulkan/template/build --check-stamp-file D:/code/vulkan/MyVulkan/template/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

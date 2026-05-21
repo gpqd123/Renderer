@@ -1,0 +1,4 @@
+D:/code/vulkan/MyVulkan/template/build/CMakeFiles/VulkanTutorial.dir
+D:/code/vulkan/MyVulkan/template/build/CMakeFiles/VulkanTutorialShader.dir
+D:/code/vulkan/MyVulkan/template/build/CMakeFiles/ALL_BUILD.dir
+D:/code/vulkan/MyVulkan/template/build/CMakeFiles/ZERO_CHECK.dir
