@@ -1,5 +1,0 @@
-﻿  1>Generating VulkanTutorial/shaders
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(237,5): warning MSB8065: 项“D:\code\vulkan\MyVulkan\template\build\CMakeFiles\94255785aa59fb14c1f4a08d887a1f82\shaders.rule”的自定义生成成功，但尚未创建指定的输出“d:\code\vulkan\myvulkan\template\build\vulkantutorial\shaders”。这可能会导致增量生成无法正常工作。
-  Compiling Slang Shaders
-  Building Custom Rule D:/code/vulkan/MyVulkan/template/CMakeLists.txt
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: 项“D:\code\vulkan\MyVulkan\template\build\CMakeFiles\f37ca276148d35cd3de0d9126d506dea\slang.spv.rule”的自定义生成成功，但指定的依赖项“d:\code\vulkan\myvulkan\template\build\vulkantutorial\shaders”不存在。这可能会导致增量生成无法正常工作。

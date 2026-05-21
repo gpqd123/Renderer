@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"D:/code/vulkan/MyVulkan/template/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

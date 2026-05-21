@@ -1,0 +1,10 @@
+@"
+build/
+.vs/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.ipch
+"@ | Out-File -Encoding utf8 .gitignore
